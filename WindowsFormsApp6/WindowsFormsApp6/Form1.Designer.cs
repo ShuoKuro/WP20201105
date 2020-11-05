@@ -50,11 +50,12 @@
             // 
             // btn_1
             // 
+            this.btn_1.Font = new System.Drawing.Font("新細明體", 20F);
             this.btn_1.Location = new System.Drawing.Point(301, 22);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(200, 50);
             this.btn_1.TabIndex = 1;
-            this.btn_1.Text = "button1";
+            this.btn_1.Text = "OK";
             this.btn_1.UseVisualStyleBackColor = true;
             // 
             // pb_1
