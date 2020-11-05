@@ -16,5 +16,36 @@ namespace WindowsFormsApp6
         {
             InitializeComponent();
         }
+
+        #region
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Shown(object sender, EventArgs e)
+        {
+
+        }
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+
+        }
+        #endregion
+
+        private void Btn_1_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(tb_1.Text))
+            {
+                MessageBox.Show("nothing", "X");
+                return;
+            }
+            
+           
+
+
+        }
+
     }
 }

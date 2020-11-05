@@ -57,6 +57,7 @@
             this.btn_1.TabIndex = 1;
             this.btn_1.Text = "OK";
             this.btn_1.UseVisualStyleBackColor = true;
+            this.btn_1.Click += new System.EventHandler(this.Btn_1_Click);
             // 
             // pb_1
             // 
@@ -103,6 +104,9 @@
             this.Controls.Add(this.tb_1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Shown += new System.EventHandler(this.Form1_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pb_1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_2)).EndInit();
